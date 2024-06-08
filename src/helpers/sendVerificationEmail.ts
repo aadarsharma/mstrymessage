@@ -20,6 +20,6 @@ export async function sendVerificationEmail(email: string, username: string, ver
         return {
             success: false,
             message: 'Error sending verification email',
-        };1
+        };
     }    
 }
